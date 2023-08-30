@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand {
+    font-family: 'Overpass', sans-serif;
+    font-size: 2rem;
+    color: black;
+    font-weight: 700;    
+}
+.navbar-brand:hover
+{
+    color: white !important;
+    background-color: green;
+}
+/*---------------------------*/
+.nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Overpass', sans-serif;
+    /* color: #000; */
+}
+li {
+    list-style: none;
+}
+.nav-link:hover {
+    color: white !important;
+    background-color: green;
+}
+.search-box {
+    border-radius: 60px;
+    outline: none;
+    height: 40px;
+    width: 80%;
+    border: 2px solid rgb(248, 26, 92);
+    transition: all .5s ease;
+    margin-right: -33px;
+}
+form .btn {
+    background-color: rgb(248, 26, 92);
+    border: none;
+    outline: none;
+    color: white;
+    height: 40px;
+    width: 40%;
+    border-radius: 60px;
+    
+}
+.main
+{
+    background-image: url("/image/kids-lunchbox.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.main .btn1 {
+    width: 35%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    border-radius: 60px;
+    font-weight: bold;
+}
+.main .btn1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #000;
+    color: rgb(248, 26, 92);
+}
+.img1 .img-fluid {
+    height: 100px;
+    width: 45%;
+}
+.card-body .img0 {
+    height: 23vh;
+}
+p {
+    color: rgb(248, 26, 92);   
+}
+.card-body:hover {
+    background-color: lightgray;
+    opacity: 0.8;
+}
+.row .btn1 {
+    width: 35%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    border-radius: 60px;
+    font-weight: bold;
+}
+.row .btn1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #000;
+    color: rgb(248, 26, 92);
+}
